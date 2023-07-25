@@ -1,0 +1,302 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    position: absolute;
+    top:0px;
+   
+    align-items: stretch;
+    
+    
+}
+.bgBlur{
+    background: url(https://img.freepik.com/free-photo/side-view-adult-searching-stock-images_23-2150286611.jpg?w=1380&t=st=1689772075~exp=1689772675~hmac=365109b72dc2e7d2d58c8aa7b082c9e81f0c150ccdcc3657ed5e744b2d9b0a39);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    filter: blur(4px);
+    position: relative;
+    
+}
+.div{
+    position: relative;
+    border: 1px solid white;
+    
+    margin: 0% auto;
+   
+    
+    padding: 20px;
+  /* display: inline-block;
+  width: 40%; */
+  
+    
+}
+.div h2{
+    /* align-self: center; */
+    /* display: flex; */
+    text-align: center;
+}
+
+.div .border{
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+
+}
+
+.left{
+
+    width: 25%;
+    height: 600px;
+   
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    /* align-items: stretch; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* align-content: space-between; */
+    justify-content: space-around;
+}
+.left h2{
+    color: white;
+    /* padding-bottom: 40px; */
+    
+}
+.left .anchors{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0% auto;
+    
+}
+.anchors a{
+    text-decoration-line: none;
+    color: white;
+    padding-bottom: 18px;
+    text-align: right;
+    
+}
+.icons{
+color: white;
+}
+.icons i{
+    color: black;
+    /* background-color: white; */
+    padding: 15px;
+}
+.icons p{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.right{
+    width: 40%;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5));
+    align-self: center;
+    padding: 40px;
+    margin-right: 2%;
+
+}
+.right h2{
+    font-size: 32px;
+    color: skyblue;
+}
+.right p{
+    font-size: 22px;
+}
+
+/* below css starts for section and container  */
+
+section{
+    background-color: grey;
+    height: 1700px;
+}
+.container{
+    width: 75%;
+    background-color: white;
+    margin-left: 25%;
+    height: 1700px;
+
+
+}
+
+.AboutusMain{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    
+}   
+.aboutleft{
+    width: 40%;
+    margin-top: 30px;
+}
+.aboutleft i{
+    font-size: 60px;
+}
+.aboutleft h2{
+    color: skyblue;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.aboutleft p{
+    padding-bottom: 25px;
+}
+/* below is css for our work  */
+.OurWorkMain{
+    width: 75%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    
+    position: relative;
+    border: 1px solid black;
+    height: 350px;
+    padding: 20px;
+}
+.OurWorkMain .border{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    
+
+}
+.OurWorkMain .divText h2{
+    color: skyblue;
+
+}
+.imagediv{
+    width: 100%;
+  
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+}
+.box{
+width: 24%;
+height: 250px;
+
+}
+.imagediv .box img{
+    width: 100%;
+    height: inherit;
+}
+/* below css is for OurClient  */
+.OurClientMain{
+
+width: 75%;
+display: flex;
+flex-direction: column;
+margin-top: 80px;
+margin-left: 30px;
+}
+.OurClientMain p{
+    padding-bottom: 30px;
+}
+.Clienttext h2{
+    color: skyblue;
+    margin-bottom: 20px;
+}
+.labels{
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content: space-between;
+     
+}
+.box1{
+    width: 24%;
+    /* height: 120px; */
+    padding: 20px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+.labels .box1 img{ 
+    width: 100%;
+    /* height: inherit;
+    object-fit: fill; */
+}
+
+.talkToUsMain{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.talkleft{
+    width: 48%;
+    border: 1px solid black;
+    padding: 30px;
+    position: relative;
+
+}
+.talkleft .border{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+
+}
+.talkleft h2{
+    color: skyblue;
+    padding-bottom: 30px;
+}
+.talkleft p{
+    padding-bottom: 20px;
+}
+
+.talkRight{
+    width: 48%;
+    padding: 15px;
+
+}
+.talkRight input{
+    display: block;
+    width: 100%;
+    padding: 8px 0px;
+    margin: 15px 0px;
+    
+    border: none;
+    border-bottom: 2px solid black;
+
+}
+.talkRight textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-top: 15px;
+}
+.talkRight .btn{
+    text-align: right;
+    margin-top: 25px;
+
+}
+.talkRight a{
+    
+    text-decoration-line: none;
+    color: black;
+    padding: 10px 15px;
+    
+    border-bottom: 1px solid grey;
+}
